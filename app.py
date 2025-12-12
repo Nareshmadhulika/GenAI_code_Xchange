@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as palm
 
 # Configure the API with your API key
-palm.configure(api_key="AIzaSyBs09D5WTHnJPtwKu92klKnDvHd9gQoBGg")
+palm.configure(api_key="MY_API_KEY")
 
 # Define the model to use
 model_name = "models/chat-bison-001"
@@ -50,4 +50,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
